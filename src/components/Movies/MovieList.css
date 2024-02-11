@@ -1,0 +1,33 @@
+.movie-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  height: 100vh;
+}
+
+.movie-genres {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #e70519;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.movie-genres:hover {
+  background-color: #e70519;
+}
+/* 
+.movie-genres-item {
+  text-decoration: none;
+  padding: 10px;
+} */
+
+@media screen and (max-width: 768px) {
+  .movie-list {
+    padding: 50px;
+  }
+}

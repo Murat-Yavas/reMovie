@@ -1,0 +1,33 @@
+.series-list {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  height: 100vh;
+  align-items: center;
+}
+
+.series-genres {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #e70519;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.series-genres:hover {
+  background-color: #e70519;
+}
+
+/* .series-genres-item {
+  text-decoration: none;
+  padding: 10px;
+} */
+
+@media screen and (max-width: 768px) {
+  .series-list {
+    padding: 50px;
+  }
+}

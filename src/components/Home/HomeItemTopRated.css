@@ -1,0 +1,28 @@
+.top-rated {
+  padding: 5px 10px;
+}
+
+.list-title {
+  overflow-y: hidden;
+}
+
+.top-rated-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: red;
+  opacity: 1;
+}
+
+.swiper-slide-active {
+  display: flex;
+  justify-content: center;
+}

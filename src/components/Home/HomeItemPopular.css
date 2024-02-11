@@ -1,0 +1,13 @@
+.popular {
+  padding: 5px 10px;
+}
+
+.list-title {
+  overflow: hidden;
+}
+
+.popular-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
