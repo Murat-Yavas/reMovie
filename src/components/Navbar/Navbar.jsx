@@ -23,7 +23,7 @@ function Navbar() {
       <div className="nav-items">
         <div className="site-logo">
           <NavLink to="/" className="nav-item">
-            LOGO + NAME
+            reMovie
           </NavLink>
         </div>
         <div className="site-content">
